@@ -1,18 +1,12 @@
-# Fahadimran7 Tap
+# fahadimran7/tap
 
-## How do I install these formulae?
+Homebrew tap for [Pill](https://trypill.app), a floating scratchpad for macOS that pastes.
 
-`brew install fahadimran7/tap/<formula>`
-
-Or `brew tap fahadimran7/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "fahadimran7/tap"
-brew "<formula>"
+```sh
+brew install --cask fahadimran7/tap/pill
 ```
 
-## Documentation
+Update with `brew upgrade --cask pill`. Remove with `brew uninstall --cask pill`, or
+`brew uninstall --zap --cask pill` to also delete your items and settings.
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+The cask is bumped automatically by Pill's release script.
