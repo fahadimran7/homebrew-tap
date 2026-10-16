@@ -1,6 +1,6 @@
 cask "pill" do
-  version "1.6.6"
-  sha256 "0e90fd8df2fcfc4defcc9a875f2793fc0e87129c16d7bd6fd726209e00d207d4"
+  version "1.6.7"
+  sha256 "4105b37178b730c944e82525fb0d0a603bc2204e72bb36147e4d695540068fa0"
 
   url "https://dl.trypill.app/Pill-#{version}.dmg"
   name "Pill"
