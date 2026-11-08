@@ -28,12 +28,7 @@ cask "pill" do
   ]
 
   caveats <<~EOS
-    Pill isn't notarized by Apple yet, so macOS blocks the first launch.
-    Open Pill once, then go to System Settings → Privacy & Security and
-    click "Open Anyway" next to the message about Pill. Or run:
-
-      xattr -dr com.apple.quarantine #{appdir}/Pill.app
-
-    Pill then asks for Accessibility access so it can paste.
+    Pill asks for Accessibility access on first launch so it can paste. If you
+    updated from 1.6.8 or earlier, allow it again: Pill is now signed differently.
   EOS
 end
