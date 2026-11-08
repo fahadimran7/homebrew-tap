@@ -2,13 +2,15 @@ cask "pill" do
   version "1.6.8"
   sha256 "3aeab81cb69173f27c48d7b071fd6f53801f8580a09e1759c24c0e5660c291ea"
 
-  url "https://www.fahadimran.me/pill/Pill-#{version}.dmg"
+  url "https://github.com/fahadimran7/homebrew-tap/releases/download/v#{version}/Pill-#{version}.dmg",
+      verified: "github.com/fahadimran7/homebrew-tap/"
   name "Pill"
   desc "Floating scratchpad that pastes"
   homepage "https://www.fahadimran.me/pill"
 
   livecheck do
-    skip "Updated by Pill's release script"
+    url :url
+    strategy :github_latest
   end
 
   depends_on macos: :sonoma
