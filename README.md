@@ -1,6 +1,6 @@
 # fahadimran7/tap
 
-Homebrew tap for [Pill](https://trypill.app), a floating scratchpad for macOS that pastes.
+Homebrew tap for [Pill](https://www.fahadimran.me/pill), a floating scratchpad for macOS that pastes.
 
 ```sh
 brew install --cask fahadimran7/tap/pill
