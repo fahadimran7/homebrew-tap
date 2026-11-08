@@ -1,6 +1,6 @@
 cask "pill" do
-  version "1.6.8"
-  sha256 "3aeab81cb69173f27c48d7b071fd6f53801f8580a09e1759c24c0e5660c291ea"
+  version "1.6.9"
+  sha256 "6102a3dc039509de7ad3e7e71d8b872061654595ba7c29f4fe55ebcdad9bc58c"
 
   url "https://github.com/fahadimran7/homebrew-tap/releases/download/v#{version}/Pill-#{version}.dmg",
       verified: "github.com/fahadimran7/homebrew-tap/"
